@@ -1,0 +1,144 @@
+*{
+    margin:0px;
+}
+.container{
+    background-color: aqua;
+    width: 100vw;
+    height:100vh;
+    display:flex;
+   justify-content: center;
+   align-items: center;
+    
+
+}
+.element{
+    height:100px;
+    width:100px;
+    background-color: red;
+    animation-name:grow ,move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position:relative;
+    animation-timing-function:linear;
+    
+    /*
+    
+   
+    animation-direction:alternate-reverse; */
+
+}
+/*
+@keyframes grow{
+    0%{
+        left: 0px;
+        top:0px;
+    }
+
+    25%{
+        background-color:yellow;
+
+        left: 200px;
+        top:0px;
+    }
+    50%{
+        top: 200px;
+        left:200px;
+    
+    }
+    75%{
+        left:0px;
+        top:200px;
+    } 
+    100%{
+        background-color:blue;
+        top:0px;
+        left:0px;
+        
+
+
+    }
+}
+@keyframes grow{
+    0%{
+        transform:translatey(10px);
+    }
+    
+    50%{
+        transform:translatey(-200px);
+    }
+    
+    100%{
+        transform:translatey(10px);
+    }
+}  
+
+@keyframes grow{
+    0%{
+        transform:translate(0px ,0px);
+    
+    }
+    25%{
+        transform:translate(200px ,0px);
+    }
+    50%{
+        transform:translate(200px ,200px);
+    }
+    75%{
+        transform:translate(0px ,200px);
+    }
+    100%{
+        transform:translate(0px, 0px);
+    }
+} 
+
+}
+
+
+@keyframes grow{
+    0%{
+        transform:rotate(0deg);
+        background-color: chartreuse;
+        
+    
+    }
+    50%{
+        transform:rotate(120deg);
+        background-color: rgb(19, 28, 28);
+    }
+    
+    100%{
+        transform:rotate(720deg);
+        border-radius: 70px;
+        background-color: blue;
+       
+    }
+}
+
+@keyframes grow{
+    0%{
+       
+        background-color: chartreuse;
+        scale: (1);
+    
+    }
+    50%{
+        
+        background-color: rgb(19, 28, 28);
+        scale:7;
+    }
+    
+    100%{
+      
+        border-radius: 70px;
+        background-color: blue;
+        scale: 4;
+       
+    }
+}
+*/
+@keyframes move{
+    0%{
+        transform: skewy(20deg);
+    }
+}
+

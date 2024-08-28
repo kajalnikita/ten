@@ -1,0 +1,38 @@
+body{
+    background-color: yellow;
+}
+.parent{
+    background-color: aqua;
+    height: 5000px;
+    margin: 30px;
+    position: relative;
+}
+.first
+{
+    background-color: black;
+    width:150px;
+    height: 150px;
+    margin:20px 20px;
+    position:relative;
+    top:10px;
+    left: 10px;
+    position: sticky;
+   
+}
+.second{
+    background-color: rgb(175, 23, 23);
+    width:50px;
+    height: 50px;
+    margin:20px 20px;
+    position:absolute;
+    top:20px;
+    position: fixed;
+
+}
+.third{
+    background-color: green;
+    width:150px;
+    height: 150px;
+    margin:20px 20px;
+   
+}

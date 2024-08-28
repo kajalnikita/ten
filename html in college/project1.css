@@ -1,0 +1,137 @@
+#home{
+    background-color:#7600bc;
+    height: 200px;
+}
+body{
+    margin:0px;
+}
+.profile{
+    color:white;
+    padding: 40px;
+    float: left;
+    
+}
+.name{
+    font-size:30px;
+    font-weight: bolder;
+}
+.profile img{
+    width:25px;
+    padding: 5px;
+
+}
+.profile p{
+    font-size: 20px;
+    font-style: italic;
+    margin:0px;
+    padding:3px;
+    display: inline;
+}
+.menubar{
+    float: right;
+    margin: 50px;
+    padding:5px;
+}
+.menubar a{
+    font-size:20px;
+    color:antiquewhite;
+    font-weight: 20px;
+    margin:20px;
+    padding: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+    font-size:2px;
+    text-decoration: underline;
+}
+.profileimg img{
+    width:400px;
+    float:left;
+
+}
+#aboutme img{
+    width:10px;
+
+}
+
+.intro h1{
+    font-size:30px;
+    
+}
+.intro p{
+    font-size:20px;
+}
+#project h1{
+    color:blueviolet;
+}
+#project{
+    margin:50px;
+
+}
+#project h3{
+    margin:10px;
+    font-size:20px;
+    
+}
+#skills h1{
+    color: blueviolet;
+    
+    margin: 50px;
+
+}
+.box{
+    width: 300px;
+    height: 450px;
+    border:solid 3px black;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow:5px 5px 6px black;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 30px;
+}
+.box img{
+width: 70%;
+   
+}
+.box p{
+    font-size: 20px;
+    color: black;
+    text-align:10px;
+    
+}
+.but{
+    background-color: #7600bc;
+    width: 70px;
+    height: 20px;
+}
+.inputfield{
+    margin: 10px auto;
+    padding:  10px auto;
+
+}
+.but:hover{
+    background-color: aqua;
+
+}
+textarea{
+    width:100px;
+    height: 100px;
+    margin:30px;
+    padding:20px;
+    
+}
+.circle img{
+    background-color: blueviolet;
+    width:80px;
+    height: 80px;
+    border: 40px;
+    border-radius: 100px;
+    margin:50px;
+    float:right;
+  
+    
+}

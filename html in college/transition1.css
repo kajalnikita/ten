@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    
+}
+.container{
+    width: 1000px;
+    height:1000px;
+    background-color: rgb(13, 134, 240);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+    
+
+}
+.item{
+    background-color: aquamarine;
+    width: 160px;
+    height: 160px;
+    
+    transition:all;
+    transition-duration: 3s;
+    transition-delay: 1s;
+
+}
+.item:hover{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(9, 19, 151);
+    border-radius: 300px;
+}

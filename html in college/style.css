@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(148, 192, 192);
+    margin:0px;
+}
+.profile-name{
+    font-size:25px ;
+    font-weight:bolder;
+    
+}
+#home{
+    background-color: rgb(118,0,188);
+    padding:50px;
+    
+    
+
+}
+.contact-info img{
+    width:40px;
+
+}
+.contact-info{
+    font-size:20px;
+    background-color: rgb(118,0,188);
+    font-style: italic;
+}
+.profile{
+    
+
+
+}
+.topdivision{
+    padding:50px;
+    float:right;
+    
+}
+.menu{
+    color:gray;
+    padding: 30px;
+    text-decoration: none;
+    font-size:30px;
+   
+   
+}
+a{
+    text-decoration: none;
+  
+}
+a:hover{
+    color:white;
+    font-weight: bolder;
+    text-decoration:underline;
+}
+.profile-img img{
+    width:40%;
+    float:left;
+   
+}
+#about me{
+    width:20px;
+}
+.intro{
+    float:right;
+}
+.intro h1{
+    font-size:xx-large;
+    float:right;
+    color:rgb(118,0,188)
+
+}
+.intro img{
+    float:right;
+}
+.intro p{
+    font-size:x-large
+}

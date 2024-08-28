@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+}
+ p{
+    background-color: brown;
+    margin:10px;
+   
+}
+h{
+    background-color: rgb(228, 199, 199);
+    display:block;
+    padding: 10px;
+    margin:10px;
+    border:solid;
+    
+   
+    
+}

@@ -1,0 +1,87 @@
+.container{
+    background-color: rgb(131, 131, 211);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.item{
+    background-color: rgb(14, 1, 1);
+    width:2000px;
+    height: 1000px;
+    border-radius: 70px;
+    font-size: 50px;
+    padding: 100px;
+    color: white;
+    box-shadow:50px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    padding: 20px;
+    margin:0px;
+}
+.but{
+    font-size: 40px;
+    border-radius: 30px;
+}
+.but:hover{
+    background-color:blue;
+}
+.menu a{
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+    
+}
+.txt{
+    
+    height: 50px;
+    border-radius: 30px;
+}
+.bt{
+    font-size: 50px;
+    border-radius: 30px;
+    color: #020e11;
+   
+}
+.bt:hover{
+    background-color: aqua;
+}
+.lp{
+     padding: 50px;
+     margin:100px;
+}
+.wl h2{
+    font-size: 100px;
+}
+.wl{
+    float: left;
+    
+}
+.lp{
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    
+}
+.lp h1{
+    font-weight: normal;
+    margin:15px;
+    margin-top: 60px;
+
+}
+.lp p{
+    width: 260px;
+    font-size: 20px;
+}
